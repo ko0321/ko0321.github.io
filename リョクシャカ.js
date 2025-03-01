@@ -23,13 +23,14 @@ document.getElementById("gacha-btn").addEventListener("click", function () {
         { name: "PLAYER 1セットアップ(ナイロン)XL", price: 12000 },
         { name: "Channel U ツアーステッカーセット", price: 900  },
         { name: "メッシュバッグ2025", price: 1000 },
-        { name: "ガチャ", price: 500  },
+        { name: "ガチャ", price: 500 },
     ];
 
     let total = 0;
     let selectedItems = [];
     
-    while (total < 10000) {
+    while (total < 10000) 
+    {
         let item = menu[Math.floor(Math.random() * menu.length)];
         if (total + item.price <= 10000) { // 修正: 1000円 → 10000円
             selectedItems.push(item);
