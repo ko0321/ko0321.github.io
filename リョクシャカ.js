@@ -21,8 +21,9 @@ document.getElementById("gacha-btn").addEventListener("click", function () {
         { name: "ブロッコリー＆カリフラワークッション", price: 3500 },
         { name: "PLAYER 1セットアップ(ナイロン)M", price: 12000 },
         { name: "PLAYER 1セットアップ(ナイロン)XL", price: 12000 },
-        { name: "Channel U ツアーステッカーセット", price: 900 },
+        { name: "Channel U ツアーステッカーセット", price: 900  },
         { name: "メッシュバッグ2025", price: 1000 },
+        { name: "ガチャ", price: 500  },
     ];
 
     let total = 0;
