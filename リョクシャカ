@@ -37,7 +37,7 @@ document.getElementById("gacha-btn").addEventListener("click", function () {
         { name: "Channel U ジャケ写Tシャツ(ビッグシルエット)M", price: 4200 },
         { name: "Channel U ジャケ写Tシャツ(ビッグシルエット)XL", price: 4200 },
         { name: "Channel U ツアーラバーバンドオーロラ", price: 600 },
-        { name: "Channel U ツアーラバーバンド黒", price: 600 },
+        { name: "Channel U ツアーラバーバンドクロ", price: 600 },
         { name: "Channel U ツアーマグネット", price: 4500 },
         { name: "PLAYER 1Tシャツ(ビッグシルエット)M", price: 4200 },
         { name: "PLAYER 1Tシャツ(ビッグシルエット)XL", price: 4200 },
