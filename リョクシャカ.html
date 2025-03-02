@@ -16,6 +16,11 @@
       alert("ガチャが回りました！");
   });
 </script>
+<script>
+  window.onerror = function(message, source, lineno, colno, error) {
+    alert("エラー発生: " + message + "\nソース: " + source + "\n行: " + lineno);
+  };
+</script>
 </body>
 </html>
 body {
