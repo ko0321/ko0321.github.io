@@ -1,6 +1,5 @@
 document.getElementById("gacha-btn").addEventListener("click", function () {
     const menu = [
-        
         { name: "Channel U ツアーTシャツM", price: 3800, upperlimit : 4.0},
         { name: "Channel U ツアーTシャツL", price: 3800, upperlimit : 4.0},
         { name: "Channel U ツアーTシャツXL", price: 3800, upperlimit : 4.0},
